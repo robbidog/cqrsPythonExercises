@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  eventstore:
+    image: eventstore/eventstore:release-5.0.8
+    restart: always
+    ports:
+      - 1113:1113
+      - 2113:2113
+    volumes:
+      - es-data:/var/lib/eventstore
+volumes:
+  es-data:
+  pg-data:
