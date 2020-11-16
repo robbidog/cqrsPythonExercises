@@ -36,7 +36,7 @@ The IDE will not install Azure functions core tools, you must do this step yours
 Running the code through the IDE is the easiest way to get started.  pycharm should modify all path's so that the libraries 
 developed for this module are found.  The Azure functions module appends to the system path to ensure that all python 
 classes can be found.  If you're a purist and want to run everything from the command line, you will have 
-to modify your PYTHONPATH environment variable to include the root directory of the repository.
+to modify your PYTHONPATH environment variable to include the root directory of the excercise you are currently working on.
 
 <h2> Running the Flask project in pycharm</h2>
 There is a directory called `FlaskProject` in the repository root directory that contains a python file called `app.py`. 
