@@ -39,8 +39,9 @@ classes can be found.  If you're a purist and want to run everything from the co
 to modify your PYTHONPATH environment variable to include the root directory of the excercise you are currently working on.
 
 <h2> Running the Flask project in pycharm</h2>
-There is a directory called `FlaskProject` in the repository root directory that contains a python file called `app.py`. 
-This is the entry point for the Hotel Management API described in the exercises.  Here you will find the entry point for 
+The entry point for the Hotel Management API is a directory called serverlessCqrsPython. For example, for the inital exercises, have pycharm
+open the directory of `exercise 1 - 4 start/serverlessCqrsPython`. To run the flask project in pycharm, you can run the file in `serverlessCqrsPython/FlaskProject/app.py`.
+Here you will find the entry point for 
 the MakeReservation command which is in a function called make_reservation.  Debug or run app.py within the IDE to start
 the hotel reservation system under as a Flask web app.  The web app will run at http://localhost:5000
  
