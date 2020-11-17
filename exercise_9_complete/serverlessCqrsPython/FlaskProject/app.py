@@ -21,7 +21,7 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('/reservation', methods=['POST'])
+@app.route('/makereservation', methods=['POST'])
 def make_reservation():
     try:
         bus = Bus(COMMAND_HANDLERS, EVENT_HANDLERS, QUERY_HANDLERS, contextRepository)
