@@ -30,7 +30,7 @@ for Linux
 	1. pycharm from jet brains can also be used, as the code can be run as a flask app
 1. Install dependencies, if you use pycharm or Visual Studio Code, the IDE will install all required python libraries. 
 The IDE will not install Azure functions core tools, you must do this step yourself.
-1. You can install the dependencies from the command line.  In the repostiories root directory, using the provided 
+1. You can install the dependencies from the command line.  In the exercises serverlessCqrsPython directory, using the provided 
 `requirements.txt` file and pip by entering the command `pip install -r requirements.txt`
 
 Running the code through the IDE is the easiest way to get started.  pycharm should modify all path's so that the libraries 
@@ -39,6 +39,7 @@ classes can be found.  If you're a purist and want to run everything from the co
 to modify your PYTHONPATH environment variable to include the root directory of the excercise you are currently working on.
 
 <h2> Running the Flask project in pycharm</h2>
+Once you have loaded the serverlessCqrsPython directory as a project in pycharm, you will be required to choose a python interpreter in the IDE settings.
 The entry point for the Hotel Management API is a directory called serverlessCqrsPython. For example, for the inital exercises, have pycharm
 open the directory of `exercise 1 - 4 start/serverlessCqrsPython`. To run the flask project in pycharm, you can run the file in `serverlessCqrsPython/FlaskProject/app.py`.
 Here you will find the entry point for 
